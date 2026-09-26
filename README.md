@@ -1,10 +1,3 @@
-I’ll shape this as paste-ready project documentation, grounded in the repository’s current README and the program’s actual behavior.
-
-Read 
-
-Replace the current README with this:
-
-```markdown
 # Parking Management System
 
 A menu-driven parking management system written in 16-bit x86 assembly for DOS. It was created for the CSE341 Microprocessors course.
@@ -40,18 +33,3 @@ Mount the folder containing the source file in DOSBox, switch to that drive, and
 TASM 01_03_23201317_23201333_23201375.ASM
 TLINK 01_03_23201317_23201333_23201375.OBJ
 01_03_23201317_23201333_23201375.EXE
-```
-
-The source uses DOS and BIOS interrupts and is intended to run in a DOS environment.
-
-## Usage
-
-Choose an option from the main menu and follow the prompts. Vehicle IDs, slot numbers, VIP codes, and parking hours are entered through the keyboard. Vehicle and slot data are held in memory, so the parking state resets when the program exits.
-
-## Project Information
-
-- **Course:** CSE341 – Microprocessors
-- **Group:** 01
-- **Group members:** 23201317, 23201333, 23201375
-- **Source file:** `01_03_23201317_23201333_23201375.asm`
-```
