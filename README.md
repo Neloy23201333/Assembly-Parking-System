@@ -2,7 +2,7 @@
 
 A menu-driven parking management system written in 16-bit x86 assembly for DOS. It was created for the CSE341 Microprocessors course.
 
-## Features
+### Features
 
 - Automatically assign the next available slot for a vehicle.
 - Select a slot manually, with checks for occupancy and vehicle category.
@@ -11,7 +11,7 @@ A menu-driven parking management system written in 16-bit x86 assembly for DOS. 
 - Display available slots and free-slot totals by category.
 - Verify VIP customers using a four-digit access code.
 
-## Parking Rules
+### Parking Rules
 
 - The car park has 10 slots.
 - Slots 01–03 are reserved for VIP vehicles.
@@ -25,7 +25,7 @@ A menu-driven parking management system written in 16-bit x86 assembly for DOS. 
 - DOSBox or another 16-bit DOS environment.
 - A MASM- or TASM-compatible assembler and linker available inside that environment.
 
-## Build and Run
+### Build and Run
 
 Mount the folder containing the source file in DOSBox, switch to that drive, and run:
 
